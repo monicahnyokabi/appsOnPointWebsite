@@ -4,10 +4,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <nav class="navbar navbar-expand-md navbar-dark bg-d">
+    <div className="App" id="page-top">
+      <nav class="navbar navbar-expand-md navbar-dark bg-d fixed-top">
         <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-          <img src="/group2.png" height="80" />
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">
+
+            <img src="/group2.png" height="80" />
+          </a>
         </div>
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
           <ul class="navbar-nav ml-auto">
@@ -270,11 +273,23 @@ function App() {
               </div>
               <div class="col-md-4 mt-5 p-5">
                 <h1 class="mt-5">Navigation</h1>
-                <h4>Home</h4>
-                <h4>About</h4>
-                <h4>Services</h4>
-                <h4>Our Team</h4>
-                <h4>Contacts</h4>
+                <h4>
+                <a class="text-white js-scroll-trigger" href="#page-top">Home</a>
+              
+                </h4>
+                <h4>
+                  <a class="text-white js-scroll-trigger" href="#about">About</a>
+                </h4>
+                <h4>
+                  <a class="text-white js-scroll-trigger" href="#services">Services</a>
+                </h4>
+                <h4>
+                  <a class="text-white js-scroll-trigger" href="#team">Our Team</a>
+                </h4>
+                <h4>
+                  <a class="text-white js-scroll-trigger" href="#contact">Contact</a>
+                </h4>
+
               </div>
               <div class="col-md-4 mt-5 p-5">
                 <img src="/Annotation 2020-09-21 234646_1.png" alt="" />
