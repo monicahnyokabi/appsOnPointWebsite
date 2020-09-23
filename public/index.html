@@ -60,7 +60,7 @@
       }
     }
 
-    .bg-d{
+    .bg-d {
       background-color: #3658fe !important;
     }
 
@@ -103,6 +103,49 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <script>
+    (function ($) {
+      "use strict"; // Start of use strict
+
+      // Smooth scrolling using jQuery easing
+      $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: (target.offset().top - 56)
+            }, 1000, "easeInOutExpo");
+            return false;
+          }
+        }
+      });
+
+      // Closes responsive menu when a scroll trigger link is clicked
+      $('.js-scroll-trigger').click(function () {
+        $('.navbar-collapse').collapse('hide');
+      });
+
+      // Activate scrollspy to add active class to navbar items on scroll
+      $('body').scrollspy({
+        target: '#mainNav',
+        offset: 56
+      });
+
+    })(jQuery); // End of use strict
+
+  </script>
 </body>
 
 </html>
