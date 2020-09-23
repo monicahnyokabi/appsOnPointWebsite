@@ -170,8 +170,8 @@ function App() {
           <div class="col-md-6" height="400">
             <div class="card">
               <div class="card-body">
-                <h4>MISSION</h4>
-                <h5>Client satisfaction</h5>
+                <h4 class="text-center">MISSION</h4>
+                <h5 class="text-center">Client satisfaction</h5>
                 <p>
                   At Apps On Point limited, we strive to keep you happy to work with us, by being exceptional
                   at our work, exceeding your expectations and providing excellent customer relations.
@@ -186,18 +186,26 @@ function App() {
         </div>
 
 
-        <div class="row">
+        <div class="row ml-5">
           <div class="col-md-3">
             <img src="/avataaars.png" height="200" width="200" alt="" />
+            <h4 class="justify-content-center mt-5">CEO</h4>
+            <h5 class="justify-content-center">Joe Doe</h5>
           </div>
           <div class="col-md-3">
             <img src="/avataaars.png" height="200" width="200" alt="" />
+            <h4 class="justify-content-center mt-5">CTO</h4>
+            <h5 class="justify-content-center">John Walker</h5>
           </div>
           <div class="col-md-3">
             <img src="/avataaars.png" height="200" width="200" alt="" />
+            <h4 class="justify-content-center mt-5">COO</h4>
+            <h5 class="justify-content-center">Mary Marks</h5>
           </div>
           <div class="col-md-3">
             <img src="/avataaars.png" height="200" width="200" alt="" />
+            <h4 class="justify-content-center mt-5">HIRING MANAGER</h4>
+            <h5 class="justify-content-center ">Pauline Kalxya</h5>
           </div>
         </div>
 
@@ -208,11 +216,26 @@ function App() {
 
         <footer class="bg-dark text-white mt-4">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 mt-5 p-5">
+              <h1>Contact Info</h1>
+              <h4>info@AppsOnPoint.com</h4>
+              <h4>0733 330 395</h4>
+
+              <h1 class="mt-5">Address</h1>
+              <h4>P.O. BOX 1302</h4>
+              <h4>Nairobi, Kenya</h4>
+
+              <h1 class="mt-5">Location</h1>
+              <h4>Hurlingham, Nairobi</h4>
 
             </div>
-            <div class="col-md-4">
-
+            <div class="col-md-4 mt-5 p-5">
+              <h1 class="mt-5">Navigation</h1>
+              <h4>Home</h4>
+              <h4>About</h4>
+              <h4>Services</h4>
+              <h4>Our Team</h4>
+              <h4>Contacts</h4>
             </div>
             <div class="col-md-4 mt-5 p-5">
               <img src="/Annotation 2020-09-21 234646_1.png" alt="" />
