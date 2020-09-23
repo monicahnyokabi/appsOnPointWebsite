@@ -5,6 +5,28 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <nav class="navbar navbar-expand-md navbar-dark bg-d">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+          <img src="/group2.png" height="80" />
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <div class="container-fluid  main-section">
 
         <div class="row section-part">
@@ -152,7 +174,7 @@ function App() {
 
         <div class="row">
           <div class="col-md-6">
-            <div class="card">
+            <div class="card box">
               <div class="card-body">
                 <h4 class="text-center">WHY APPS ON POINT?</h4>
                 <h5 class="text-center">We keep your applications on point</h5>
@@ -168,7 +190,7 @@ function App() {
             </div>
           </div>
           <div class="col-md-6" height="400">
-            <div class="card">
+            <div class="card box">
               <div class="card-body">
                 <h4 class="text-center">MISSION</h4>
                 <h5 class="text-center">Client satisfaction</h5>

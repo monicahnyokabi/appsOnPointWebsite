@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -25,66 +23,77 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-<style>
+  <style>
     .main-section {
-        position: relative;
-        background: linear-gradient(rgba(0, 0, 0, .7), rgba(15, 95, 245, 0.7), rgba(0, 0, 0, .7)), url("/laptop-keyboard-clean.jpg");
-        height: 750px;
-        background-size: cover;
+      position: relative;
+      background: linear-gradient(rgba(0, 0, 0, .7), rgba(15, 95, 245, 0.7), rgba(0, 0, 0, .7)), url("/laptop-keyboard-clean.jpg");
+      height: 750px;
+      background-size: cover;
     }
 
     .main-section i {
-        font-size: 35px;
-        color: #fff;
-        position: absolute;
-        left: 50%;
-        bottom: 15px;
-        transform: translateX(-50%);
+      font-size: 35px;
+      color: #fff;
+      position: absolute;
+      left: 50%;
+      bottom: 15px;
+      transform: translateX(-50%);
     }
 
     .main-section .section-part {
-        color: #fff;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
     }
 
     @-webkit-keyframes blinker {
-        from {
-            opacity: 1.0;
-        }
+      from {
+        opacity: 1.0;
+      }
 
-        to {
-            opacity: 0.0;
-        }
+      to {
+        opacity: 0.0;
+      }
+    }
+
+    .bg-d{
+      background-color: #3658fe !important;
+    }
+
+    .box {
+      -webkit-box-shadow: 10px 10px 40px -2px rgba(74, 74, 74, 1);
+      -moz-box-shadow: 10px 10px 40px -2px rgba(74, 74, 74, 1);
+      box-shadow: 10px 10px 40px -2px rgba(74, 74, 74, 1);
     }
 
     .blink {
-        text-decoration: blink;
-        -webkit-animation-name: blinker;
-        -webkit-animation-duration: 0.6s;
-        -webkit-animation-iteration-count: infinite;
-        -webkit-animation-timing-function: ease-in-out;
-        -webkit-animation-direction: alternate;
+      text-decoration: blink;
+      -webkit-animation-name: blinker;
+      -webkit-animation-duration: 0.6s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-direction: alternate;
     }
 
     .rcorners3 {
-        border-radius: 50px 0px 50px 0px;
-        background: #3658fe;
-        padding: 15px;
-        width: 250px;
-        height: 80px;
+      border-radius: 50px 0px 50px 0px;
+      background: #3658fe;
+      padding: 15px;
+      width: 250px;
+      height: 80px;
     }
-</style>
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  </style>
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -94,5 +103,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>
